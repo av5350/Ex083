@@ -46,7 +46,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                             {"Oslo", "Bergen", "Trondheim", "Stavanger", "Skien"},
                             {"Berlin", "Hamburg", "Munich", "Cologne", "Stuttgart"},
                             {"Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu"},
-                            {"Warsaw", "Krakow", "Wroclaw", "Poznan", "Szczecin"}};
+                            {"Warsaw", "Krakow", "Wroclaw", "Poznan", "Szczecin"},
+                            {"Caracas", "Maracaibo", "Valencia", "Maracay", "Maturín"},
+                            {"Sao Paulo", "Brasilia", "Salvador", "Fortaleza", "Manaus"},
+                            {"La Paz", "Cochabamba", "Oruro", "Sucre", "Potosi"},
+                            {"Santiago", "Valparaiso", "Arica", "Concepcion", "Rancagua"},
+                            {"Bogota", "Leticia", "Puerto Carreno", "Cumaribo", "La Primavera"},
+                            {"Lima", "Arequipa", "Trujillo", "Chiclayo", "Piura"},
+                            {"Albina", "Paramaribo", "Lelydorp", "Moengo", "Wageningen"}};
 
     String[][] infoArr = {  // Africa
                             {"14,368,332", "1,171"}, {"3,999,050", "499"},
@@ -113,7 +120,29 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                             {"206,001", "3,817.52"},
                             {"1,790,658", "517.24"}, {"779,115", "326.8"},
                             {"643,782", "292.92"}, {"534,813", "261.85"},
-                            {"401,907", "301"}};
+                            {"401,907", "301"},
+                            // America
+                            {"2,245,744", "433"}, {"1,200,000", "1,393"},
+                            {"832,409", "623"}, {"955,362", "911.57"},
+                            {"472,909", "13,352"},
+                            {"12,176,866", "1,521.11"}, {"3,039,444", "5,802"},
+                            {"2,857,329", "693"}, {"2,643,247", "314.93"},
+                            {"2,182,763", "11,401.092"},
+                            {"766,468", "472"}, {"630,587", "170"},
+                            {"264,683", "1,633"}, {"300,000", "1,768"},
+                            {"174,973", "118.218"},
+                            {"5,220,161", "641"}, {"284,630", "401.6"},
+                            {"222,619", "4,799.4"}, {"223,574", "222"},
+                            {"232,211", "260.3"},
+                            {"7,412,566", "1,587"}, {"48,144", "5,968"},
+                            {"20,936", "12,409"}, {"23,990", "65.193"},
+                            {"9,690", "22,159"},
+                            {"8,838,102", "2,672.3"}, {"1,008,290", "69"},
+                            {"919,899", "1,100"}, {"552,508", "174.46"},
+                            {"484,475", "621.2"},
+                            {"5,247", "397"}, {"240,924", "182"},
+                            {"18,663", "149"}, {"10,834", "1,117"},
+                            {"2,937", "1,613"}};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -160,6 +189,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     R.layout.support_simple_spinner_dropdown_item, citiesArr[citiesPos]);
             cities.setAdapter(citiesAdp);
         }
+        residentsNum.setText("Num of residents: ");
+        cityArea.setText("City area: ");
     }
 
     @Override
