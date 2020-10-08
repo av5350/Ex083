@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ex083</string>
+
+    <string-array name="continentsArr">
+        <item>continents</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>America</item>
+    </string-array>
+
+</resources>
