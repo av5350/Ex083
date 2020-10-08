@@ -39,7 +39,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                             {"Karachi", "Lahore", "Faisalabad", "Rawalpindi", "Gujranwala"},
                             {"Yangon", "Mandalay", "Naypyidaw", "Bago", "Chin"},
                             {"Nagoya", "Toyohashi", "Okazaki", "Ichinomiya", "Seto"},
-                            {"Bangkok", "Nonthaburi", "Pak Kret", "Hat Yai", "Surat Thani"}};
+                            {"Bangkok", "Nonthaburi", "Pak Kret", "Hat Yai", "Surat Thani"},
+                            {"Bucharest", "Timișoara", "Constanța", "Brașov", "Oradea"},
+                            {"Kyiv", "Kharkiv", "Odessa", "Dnipro", "Donetsk"},
+                            {"Arboga", "Arvika", "Askersund", "Avesta", "Stockholm"},
+                            {"Oslo", "Bergen", "Trondheim", "Stavanger", "Skien"},
+                            {"Berlin", "Hamburg", "Munich", "Cologne", "Stuttgart"},
+                            {"Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu"},
+                            {"Warsaw", "Krakow", "Wroclaw", "Poznan", "Szczecin"}};
 
     String[][] infoArr = {  // Africa
                             {"14,368,332", "1,171"}, {"3,999,050", "499"},
@@ -86,7 +93,27 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                             {"190,272", "36.04"}, {"156,802", "21"},
                             {"132,040", "68.97"},
                             // Europe
-                            {}};
+                            {"1,803,247", "228"}, {"319,279", "130.5"},
+                            {"283,872", "124.89"}, {"253,200", "267.32"},
+                            {"196,367", "115.56"},
+                            {"2,950,800", "839"}, {"2,139,036", "350"},
+                            {"1,016,515", "162.42"}, {"998,103", "409,718"},
+                            {"929,063", "358"},
+                            {"10,330", "9.50"}, {"14,244", "10.62"},
+                            {"3,887", "2.7802"}, {"11,949", "13.91"},
+                            {"975,904", "188"},
+                            {"693,491", "480.75"}, {"283,929", "464.71"},
+                            {"199,039", "321.81"}, {"135,118", "71.35"},
+                            {"54,887", "779"},
+                            {"3,769,495", "891.1"}, {"1,899,160", "755.22"},
+                            {"1,484,226", "310.43"}, {"1,087,863", "405.15"},
+                            {"635,911", "207.36"},
+                            {"656,229", "715.48"}, {"291,439", "528.03"},
+                            {"239,076", "689.59"}, {"235,911", "240.35"},
+                            {"206,001", "3,817.52"},
+                            {"1,790,658", "517.24"}, {"779,115", "326.8"},
+                            {"643,782", "292.92"}, {"534,813", "261.85"},
+                            {"401,907", "301"}};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
